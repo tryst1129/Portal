@@ -35,7 +35,7 @@
             android:backgroundTint="#00FF5555"
             android:onClick="onClick"
             android:text="Back"
-            android:textColor="#FFFFFF" />
+            android:textColor="#55ffaa" />
 
         
         <Space
