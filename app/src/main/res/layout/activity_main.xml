@@ -11,103 +11,48 @@
         android:id="@+id/endorsement"
         android:layout_width="150dp"
         android:layout_height="15dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="20dp"
         android:layout_marginBottom="30dp"
-        android:text="brought to you by Tristan L"
+        android:text="Tristan L"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+    <Button
+        android:id="@+id/good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#aaffaa"
+        android:onClick="onClick"
+        android:text="Good"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bad" />
+
+    <Button
+        android:id="@+id/bad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#aaaaff"
+        android:onClick="onClick"
+        android:text="Bad"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fadeScrollbars="true"
-            android:orientation="vertical"
-            android:scrollbars="none">
-
-            <Button
-                android:id="@+id/invisible"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:visibility="invisible"
-                android:text="invisible" />
-
-            <Button
-                android:id="@+id/viMusic"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="ViMusic" />
-
-            <Button
-                android:id="@+id/newPipe"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="NewPipe" />
-
-            <Button
-                android:id="@+id/onStream"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="OnStream" />
-
-            <Button
-                android:id="@+id/soul"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="Soul" />
-
-            <Button
-                android:id="@+id/pdnsqs"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="PDNSQS" />
-
-            <Button
-                android:id="@+id/repainter"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="Repainter" />
-
-            <Button
-                android:id="@+id/skit"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="Skit" />
-
-            <Button
-                android:id="@+id/ladb"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:onClick="onClick"
-                android:text="LADB" />
+    <Button
+        android:id="@+id/ugly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#ffaaaa"
+        android:onClick="onClick"
+        android:text="Ugly"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bad" />
 
 
-        </LinearLayout>
-    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

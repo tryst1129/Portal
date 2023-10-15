@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp" />
+
+        <Button
+            android:id="@+id/backB"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FF5555"
+            android:onClick="onClick"
+            android:text="Back"
+            android:textColor="#FFFFFF" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp" />
+
+
+        <Button
+            android:id="@+id/chase"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Chase" />
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google One" />
+
+        <Button
+            android:id="@+id/drive"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Drive" />
+
+        <Button
+            android:id="@+id/files"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Files" />
+
+        <Button
+            android:id="@+id/keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Keyboard" />
+
+        <Button
+            android:id="@+id/sengled"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Sengled" />
+
+        <Button
+            android:id="@+id/goodreads"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Goodreads" />
+
+        <Button
+            android:id="@+id/books"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Play Books" />
+
+        <Button
+            android:id="@+id/messages"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Messages" />
+
+        <Button
+            android:id="@+id/voice"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Voice" />
+
+        <Button
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Clock" />
+
+        <Button
+            android:id="@+id/contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Contacts" />
+
+        <Button
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Calendar" />
+
+        <Button
+            android:id="@+id/sheets"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#aaaaff"
+            android:onClick="onClick"
+            android:text="Google Sheets" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
