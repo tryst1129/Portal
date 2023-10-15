@@ -103,9 +103,6 @@ public class MainActivity extends AppCompatActivity {
         if (findViewById(R.id.one) == view) {
             url = "https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red&pcampaignid=web_share";
         }
-        if (findViewById(R.id.drive) == view) {
-            url = "https://play.google.com/store/apps/details?id=com.google.android.apps.docs&pcampaignid=web_share";
-        }
         if (findViewById(R.id.files) == view) {
             url = "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files&pcampaignid=web_share";
         }
@@ -126,6 +123,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if (findViewById(R.id.voice) == view) {
             url = "https://play.google.com/store/apps/details?id=com.google.android.apps.googlevoice&pcampaignid=web_share";
+        }
+        if (findViewById(R.id.phone) == view) {
+            url = "https://play.google.com/store/apps/details?id=com.google.android.dialer&pcampaignid=web_share";
         }
         if (findViewById(R.id.clock) == view) {
             url = "https://play.google.com/store/apps/details?id=com.google.android.deskclock&pcampaignid=web_share";

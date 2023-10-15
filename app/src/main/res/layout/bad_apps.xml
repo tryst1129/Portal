@@ -62,15 +62,6 @@
                 android:text="Google One" />
 
             <Button
-                android:id="@+id/drive"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:backgroundTint="#aaaaff"
-                android:onClick="onClick"
-                android:text="Google Drive" />
-
-            <Button
                 android:id="@+id/files"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
@@ -132,6 +123,15 @@
                 android:backgroundTint="#aaaaff"
                 android:onClick="onClick"
                 android:text="Google Voice" />
+
+            <Button
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#aaaaff"
+                android:onClick="onClick"
+                android:text="Google Phone" />
 
             <Button
                 android:id="@+id/clock"
