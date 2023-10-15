@@ -1,13 +1,13 @@
 package com.tristan.portal;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Window window = this.getWindow();
         window.setStatusBarColor(getColor(R.color.transparent));
+    }
+
+    @SuppressLint("MissingSuperCall")
+    @Override
+    public void onBackPressed(){
+        setContentView(R.layout.activity_main);
     }
 
     public void onClick (View view) {
